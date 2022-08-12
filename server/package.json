@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "form-data": "~2.3.1",
+    "moment": "~2.19.1",
+    "mongoose": "^6.4.1",
+    "node-fetch": "~2.6.1",
+    "nodemon": "^2.0.18",
+    "password-hasher": "~1.0.1",
+    "qhttp": "~0.6.0"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
+  }
+}
